@@ -1,3 +1,6 @@
 # Omarchy fastfetch config
 
-![[./img/screen1.png | center]]
+<p align="center">
+  <img src="path/to/image.png" width="400"><br>
+  <em>Project preview</em>
+</p>
