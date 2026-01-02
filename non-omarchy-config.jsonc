@@ -8,6 +8,7 @@
     "padding": {
       "top": 2,
       "right": 3,
+      "left": 2,
     }
   },
   "display": {
@@ -21,9 +22,23 @@
     "break",
     "break",
     "break",
+    "break",
     {
       "type": "custom",
       "format": "\u001b[90m┌───────────────────neito@archbtw───────────────────┐"
+    },
+    {
+      "type": "kernel",
+      "key": "󰣇  ",
+      "keyColor": "#d79921",
+      "format": "Arch Linux"
+    },
+    {
+      "type": "wm",
+      "key": "  ",
+      "keyColor": "#d79921",
+      "format": "{pretty-name}"
+
     },
     {
       "type": "cpu",
@@ -38,19 +53,6 @@
       "detectionMethod": "pci",
       "keyColor": "#d79921",
       "format": "{name}"
-    },
-    {
-      "type": "kernel",
-      "key": "󰣇  ",
-      "keyColor": "#d79921",
-      "format": "Arch Linux"
-    },
-    {
-      "type": "wm",
-      "key": "  ",
-      "keyColor": "#d79921",
-      "format": "{pretty-name}"
-
     },
     {
       "type": "terminal",
