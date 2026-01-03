@@ -28,10 +28,24 @@
       "format": "\u001b[90m┌───────────────────neito@archbtw───────────────────┐"
     },
     {
-      "type": "kernel",
+      "type": "host",
+      "key": "  ",
+      "showPeCoreCount": true,
+      "keyColor": "#d79921",
+      "format": "{version}"
+    },
+    {
+      "type": "cpu",
+      "key": "  ",
+      "detectionMethod": "pci",
+      "keyColor": "#d79921",
+      "format": "{name}"
+    },
+    {
+      "type": "os",
       "key": "󰣇  ",
       "keyColor": "#d79921",
-      "format": "Arch Linux"
+      "format": "{name}"
     },
     {
       "type": "wm",
@@ -39,20 +53,6 @@
       "keyColor": "#d79921",
       "format": "{pretty-name}"
 
-    },
-    {
-      "type": "cpu",
-      "key": "  ",
-      "showPeCoreCount": true,
-      "keyColor": "#d79921",
-      "format": "Intel i7-11700KF"
-    },
-    {
-      "type": "gpu",
-      "key": "󰾲  ",
-      "detectionMethod": "pci",
-      "keyColor": "#d79921",
-      "format": "{name}"
     },
     {
       "type": "terminal",
